@@ -1,0 +1,22 @@
+.main-div {
+    background-color: rgb(245,245,245);
+
+    height: 1000px;
+    width: 765px;
+  
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+span {
+    background-color: rgb(231,231,231);
+    color: brown;
+}
