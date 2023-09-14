@@ -16,38 +16,53 @@
 
         <h2 class="center">What is HTML?</h2>
 
-        <p><b>Hypertext Markup Language (<u>HTML</u>)</b> is the standard markup language for creating web pages and web applications.</p>
+        <p><b>Hypertext Markup Language (<abbr title="">HTML</abbr>)</b> is the standard markup language for creating web pages and web applications.</p>
 
-        <p>Web browsers receive <u>HTML</u> documents from a web server or from local storage and render the documents into multimedia 
-            web pages. <u>HTML</u> describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
+        <p>Web browsers receive <abbr title="">HTML</abbr> documents from a web server or from local storage and render the documents into multimedia
+            web pages. <abbr title="">HTML</abbr> describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
 
-        <p> <u>HTML</u> elements are the building blocks of <u>HTML</u> pages. With <u>HTML</u> constructs, images and other objects such as interactive 
-            forms may be embedded into the rendered page. <u>HTML</u> provides a means to create structured documents by denoting structural 
-            semantics for text such as headings, paragraphs, lists, links, quotes and other items. <u>HTML</u> elements are delineated by tags, 
-            written using angle brackets. Tags such as <span><img /></span> and <span><input /></span> directly introduce content into the page. 
-            Other tags such as <span><p></span> surround and provide information about document text and may include other tags as sub-elements. 
-            Browsers do not display the <u>HTML</u> tags, but use them to interpret the content of the page.</p>
+        <p> <abbr title="">HTML</abbr> elements are the building blocks of <abbr title="">HTML</abbr> pages. With <abbr title="">HTML</abbr> constructs, images and other objects such as interactive
+            forms may be embedded into the rendered page. <abbr title="">HTML</abbr> provides a means to create structured documents by denoting structural
+            semantics for text such as headings, paragraphs, lists, links, quotes and other items. <abbr title="">HTML</abbr> elements are delineated by tags,
+            written using angle brackets. Tags such as <span>&lt;img /></span> and <span>&lt;input /></span> directly introduce content into the page.
+            Other tags such as <span>&lt;p></span> surround and provide information about document text and may include other tags as sub-elements.
+            Browsers do not display the <abbr title="">HTML</abbr> tags, but use them to interpret the content of the page.</p>
         <hr>
 
 
         <h2 class="center">Markup</h2>
 
-        <p> <u>HTML</u> markup consists of several key components, including those called tags (and their attributes), 
-            character-based <i>data types, character references</i> and <i>entity references.</i> 
-            <u>HTML</u> tags most commonly come in pairs like <span><h1></span> and <span></h1></span>, 
-            although some represent <i>empty elements</i> and so are unpaired, for example <span><img></span>. The first tag in such a pair is the start tag, 
+        <p> <abbr title="">HTML</abbr> markup consists of several key components, including those called tags (and their attributes),
+            character-based <i>data types, character references</i> and <i>entity references.</i>
+            <abbr title="">HTML</abbr> tags most commonly come in pairs like <span>&lt;h1></span> and <span>&lt;/h1></span>,
+            although some represent <i>empty elements</i> and so are unpaired, for example <span>&lt;img></span>. The first tag in such a pair is the start tag,
             and the second is the end tag (they are also called <i>opening tags</i> and <i>closing tags</i>).</p>
 
-        <p>Another important component is the <u>HTML</u> <i>document type declaration</i>, which triggers standards mode rendering.</p>
+        <p>Another important component is the <abbr title="">HTML</abbr> <i>document type declaration</i>, which triggers standards mode rendering.</p>
 
         <p>The following is an example of the classic "Hello, World!" program:</p>
 
-        
-        <div>
 
+        <div class="code">
+            <pre>
+                <code>
+        <span>&lt;!DOCTYPE html></span>
+        <span>&lt;html></span>
+            <span>&lt;head></span>
+                <span>&lt;title></span>This is a title<span>&lt;/title></span>     <!-- что-то очень страшное (⊙_⊙)？ -->
+            <span>&lt;/head></span>
+            <span>&lt;body></span>
+                <span>&lt;p></span>Hello world!<span>&lt;/p></span>
+            <span>&lt;/body></span>
+        <span>&lt;/html></span>
+                </code>
+            </pre>
         </div>
         <hr>
-
+        <div class="h">     <!-- на сколько это правильно? ¯\(°_o)/¯ -->
+            <p><small><b>Tags:</b> <span>CodingScripting</span> <span>head</span> <span>HTML</span> <span>Introduction to HTML</span> <span>Landing</span>
+                 <span>Links semantics</span> <span>Structure</span> <span>Text</span></small></p>
+        </div>
     </div>
 </body>
 </html>

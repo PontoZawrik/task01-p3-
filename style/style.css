@@ -1,15 +1,13 @@
 .main-div {
     background-color: rgb(245,245,245);
 
-    height: 1000px;
+    height: 950px;
     width: 765px;
   
     margin-left: auto;
     margin-right: auto;
 
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 30px;
 }
 
 .center {
@@ -19,4 +17,13 @@
 span {
     background-color: rgb(231,231,231);
     color: brown;
+}
+
+.code {
+    background-color: rgb(231,231,231);
+}
+
+.h span {
+    background-color: rgb(231,231,231);
+    color: cadetblue;
 }
